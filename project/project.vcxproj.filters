@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\Core.cpp" />
+    <ClCompile Include="..\src\Graphics.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\n8tme.cpp" />
+    <ClCompile Include="..\src\Physics.cpp" />
+    <ClCompile Include="..\src\shader_utils.cpp" />
+    <ClCompile Include="..\src\Engine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Core.h" />
+    <ClInclude Include="..\src\debug.h" />
+    <ClInclude Include="..\src\Graphics.h" />
+    <ClInclude Include="..\src\n8time.h" />
+    <ClInclude Include="..\src\Physics.h" />
+    <ClInclude Include="..\src\shader_utils.h" />
+    <ClInclude Include="..\src\Engine.h" />
+  </ItemGroup>
+</Project>
